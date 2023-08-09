@@ -1,0 +1,18 @@
+{
+    "name": "velsym/dummy-dependency",
+    "description": "Dummy dependency.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Velsym\\DummyDependency\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Xawier Slupik",
+            "email": "48760619+xBlixon@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
