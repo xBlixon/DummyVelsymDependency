@@ -5,7 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Velsym\\DummyDependency\\": "src/"
+            "Velsym\\DummyDependency\\": "src/",
+            "PackageName\\VelsymDependencyMapping\\": "dependencies/"
         }
     },
     "authors": [

@@ -9,7 +9,7 @@ class Dummy implements DummyInterface
 
     private string $text;
 
-    public function __construct(int $incrementer, string $text)
+    public function __construct(int $incrementer = 1, string $text = "some cool text")
     {
         $this->text = $text;
         $this->incrementer = $incrementer;
